@@ -14,6 +14,11 @@ app.get('/', function (req, res) {
     res.send("<h1>Home Page</h1>")
 })
 
+app.get('/name', function (req, res) {
+    res.send("<h1>Meet Bhanderi c0863786</h1>")
+})
+
+
 //http://localhost:3000/profile
 app.post('/profile', (req, res) => {
   console.log(req.body)
